@@ -7,4 +7,3 @@ WORKDIR /opt/node-app
 COPY . /opt/node-app/
 ENV channel=kablosuzkedi
 CMD ["node", "index.js"];
-
